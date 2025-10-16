@@ -98,9 +98,6 @@ buildNumber.properties
 .idea/**/gradle.xml
 .idea/**/libraries
 
-application-prod.yml
-
-application-test.yml
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
@@ -150,3 +147,6 @@ fabric.properties
 
 .DS_Store
 **/.DS_Store # 忽略所有目录下的 .DS_Store
+# 忽略所有环境特定的配置文件，仅保留主配置
+application-*.yml
+!application.yml  # 例外：不忽略主配置文件
