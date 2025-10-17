@@ -11,4 +11,4 @@ COPY src ./src
 RUN mvn package -DskipTests
 
 # Run the web service on container startup.
-CMD ["java","-jar","/app/target/springbootTemplate-init-0.0.1-SNAPSHOT.jar","--spring.profiles.active=prod"]
+CMD ["java","-jar","/app/target/varin-interviewSolution-0.0.1-SNAPSHOT.jar","--spring.profiles.active=prod"]

@@ -11,9 +11,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cn.varin</groupId>
-    <artifactId>varin-springbootTemplate-init</artifactId>
+    <artifactId>varin-interviewSolution</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springbootTemplate-init</name>
+    <name>varin-interviewSolution</name>
     <properties>
         <java.version>1.8</java.version>
     </properties>
