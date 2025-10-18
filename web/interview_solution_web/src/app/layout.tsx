@@ -1,5 +1,7 @@
+"use client"
 import "./globals.css";
 import { AntdRegistry } from "@ant-design/nextjs-registry";
+import BasicLayout from "@/layouts/basicLayout";
 
 
 export default function RootLayout({
@@ -12,7 +14,7 @@ export default function RootLayout({
      <body>
 
      <AntdRegistry>
-       {children}
+       <BasicLayout>{children}</BasicLayout>
      </AntdRegistry>
      </body>
     </html>
